@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Hoverable Navigation Toolbar</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome to Sathya Balakumar's mock personal website. Sathya is a software engineer with experience in full-stack development and machine learning. Sathya's real website in currently getting built. Until then, check out his linkedin!">
+    <meta name="author" content="Sathya Balakumar">
+    <meta name="keywords" content="Sathya Balakumar, Sathya Swe, software engineer, Sathya ECE, Sathya is looking for a job">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathya's Super-basic Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<nav>
-		<ul>
-			<li><a href="#section1">Section 1</a></li>
-			<li><a href="#section2">Section 2</a></li>
-			<li><a href="#section3">Section 3</a></li>
-		</ul>
-	</nav>
+  <nav class="toolbar">
+    <ul>
+      <li><a href="#personal-life" class="toolbar-link">About Me</a></li>
+      <li><a href="#experience" class="toolbar-link">Experience</a></li>
+      <li><a href="#machine-learning-skills" class="toolbar-link">Machine Learning Skills</a></li>
+      <li><a href="#software-engineering-skills" class="toolbar-link">Software Engineering Skills</a></li>
+    </ul>
+  </nav>
 
-	<h1 id="section1">Section 1</h1>
-	<p>This is the section one text</p>
+  <section class="section" id="personal-life">
+    <h2>Personal Life</h2>
+    <p>Hi, my name is <a href="https://www.instagram.com/snapsbysetty/?hl=en" target="_blank" class="section-link">Sathya Balakumar</a>. Click on my photo to go to my linkedin page or click on my name to visit my instagram photography page!</p>
+    <a href="https://www.linkedin.com/in/sathya-balakumar-722665175/" target="_blank">
+      <img src="https://media.licdn.com/dms/image/C5603AQEX7ItYW8XS8A/profile-displayphoto-shrink_800_800/0/1653077922278?e=1683158400&amp;v=beta&amp;t=42ZU4e9RO2AI_uhs-YuI0qq28GnPg1EANVvH9USeMSg" alt="Sathya Balakumar's LinkedIn Profile Picture" class="profile-pic">
+    </a>  
+    <p>Here's some information about my personal life.</p>
+    <div>I am currently a final-year Electrical and Computer Engineering Student at the University of Texas at Austin. I enjoy learning about Software Engineering and Machine Learning!</div>
+        <div>But it all started when I was born in the bay area (GO WARRIORS!) in 2001. I moved to Plano, Texas when I was 5 and lived in Plano for 4 years.</div>
+        <div>Then I moved to India to live with my grandparents for 4 years til I was 13. I then moved back to Frisco, Texas where I went to Fowler Middle School then Frisco Liberty High School and graduated in 2019.</div>
+        <div>Afterwards, I began attending the University of Texas at Austin.</div>
 
-	<h1 id="section2">Section 2</h1>
-	<p>This is the section two text</p>
+      
+  </section>
 
-	<h1 id="section3">Section 3</h1>
-	<p>This is the section three text</p>
+  <section class="section" id="experience">
+    <h2>Experience</h2>
+    <p>Here's some information about my work experience.</p>
+  </section>
+
+  <section class="section" id="machine-learning-skills">
+    <h2>Machine Learning Skills</h2>
+    <p>Here's some information about my machine learning skills.</p>
+  </section>
+
+  <section class="section" id="software-engineering-skills">
+    <h2>Software Engineering Skills</h2>
+    <p>Here's some information about my software engineering skills.</p>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>

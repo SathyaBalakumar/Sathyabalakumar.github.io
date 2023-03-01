@@ -1,45 +1,91 @@
-nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: tan;
-	color: saddlebrown;
-	width: 100%;
-	padding: 10px 20px;
-	box-sizing: border-box;
-	height: 3;
-	overflow: hidden;
-	transition: all 0.3s ease-in-out;
-}
-
-nav:hover {
-	height: auto;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+/* Styles for the toolbar */
+.toolbar {
+	background: linear-gradient(to right, #BF5700, #FFFFFF);
+	animation: gradient 5s ease infinite;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100%;
-}
-
-nav ul li {
+  }
+  
+  .toolbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+  }
+  
+  .toolbar li {
+	display: inline-block;
 	margin: 0 10px;
-}
-
-nav ul li a {
-	color: #fff;
+  }
+  
+  .toolbar a {
+	display: block;
+	padding: 10px;
+	color: black;
+	font-size: 20px;
 	text-decoration: none;
-	padding: 5px 10px;
+	transition: all 0.3s ease;
+  }
+  
+  .toolbar a:hover {
+	transform: scale(1.2);
+  }
+  
+  @keyframes gradient {
+	0% {
+	  background-position: 0 0;
+	}
+	50% {
+	  background-position: 100% 0;
+	}
+	100% {
+	  background-position: 0 0;
+	}
+  }
+  
+  /* Styles for the section headers */
+  h2 {
+	font-size: 32px;
+	color: #BF5700; /* UT Burnt Orange */
+	margin-top: 50px;
+  }
+  
+  /* Styles for the section content */
+  p {
 	font-size: 18px;
+	line-height: 1.5;
+	color: #444444; /* Dark Gray */
+  }
+  
+  .section {
+	background-color: #F2E8D8;
+	padding: 20px;
+  }
+  
+  #personal-life h2 {
+	color: #BF5700;
+  }
+  
+  #personal-life img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+  }
+  
+  #personal-life img:hover {
+	transform: scale(1.05);
+  }
+  
+  #personal-life a {
+	color: black;
 	font-weight: bold;
-	transition: all 0.3s ease-in-out;
-}
-
-nav ul li a:hover {
-	background-color: #fff;
-	color: #333;
-}
+	transition: all 0.3s ease;
+  }
+  
+  #personal-life a:hover {
+	color: blue;
+	transform: scale(1.0);
+  }
+  
