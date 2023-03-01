@@ -7,7 +7,7 @@ nav {
 	width: 100%;
 	padding: 10px 20px;
 	box-sizing: border-box;
-	height: 0;
+	height: 3;
 	overflow: hidden;
 	transition: all 0.3s ease-in-out;
 }
